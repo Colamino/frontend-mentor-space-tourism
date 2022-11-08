@@ -1,0 +1,317 @@
+.crew {
+  background: url('../../assets/crew/background-crew-desktop.jpg') no-repeat center center fixed;;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: max-content;
+
+  
+}
+
+.crew-wrapper {
+  display: flex;
+  
+}
+
+.crew-left {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 4rem 2rem 15rem;
+  letter-spacing: 5px;
+  flex: 1;
+
+  
+}
+
+.crew .heading-text {
+  display: flex;
+ padding: 2rem 10rem;
+
+}
+
+.heading-text span {
+  font-family: var(--font-family);
+  color: rgba(128, 128, 128, 0.455);
+  font-size: 2rem;
+  font-weight: bold;
+  margin-right: 1.5rem;
+}
+
+.heading-text .heading {
+  font-family: var(--font-family);
+  color: #ffffff;
+  font-size: 2rem;
+  font-weight: 100;
+  text-transform: uppercase;
+  letter-spacing: 4.72px;
+}
+
+
+.crew-role {
+  font-family: var(--heading-font);
+  font-size: 32px;
+  color: rgba(170, 170, 170, 0.897);
+  text-transform: uppercase;
+  letter-spacing: 0;
+
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.crew-name {
+  font-family: var(--heading-font);
+  font-size: 50px;
+  color: #ffffff;
+  text-transform: uppercase;
+
+  margin-bottom: 2rem;
+}
+
+.crew-bio {
+  font-family: var(--barlow-font);
+  font-size: 18px;
+  line-height: 32px;
+  color: #D0D6F9;
+  font-weight: 300;
+  
+
+  padding-right: 5rem;
+}
+
+.change-dot {
+  display: flex;
+  position: absolute;
+
+  bottom: 5rem;
+  
+}
+
+.change-dot li {
+  color: #5a5959;
+  font-size: 48px;
+  margin-right: -20px;
+  cursor: pointer;
+}
+
+.change-dot li:hover {
+  color: #97989ae7;
+}
+
+.crew-right {
+  flex: 1.4;
+  position: relative;
+  
+}
+
+.crew-photo {
+ display: flex;
+ align-items: end;
+  justify-content: center;
+  height: 650px;
+}
+
+.crew-photo img {
+  height: 100%;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 1550px) {
+  .crew .heading-text {
+    padding: 2rem 8rem;
+  }
+  .crew-left {
+    padding: 2rem 0 0 8rem;
+    flex: 1.5;
+  }
+
+  .crew-photo{
+    height: 550px;
+  }
+
+  .change-dot {
+  
+    bottom: -2rem;
+    
+  }
+
+
+}
+
+@media screen and (max-width: 1350px) {
+  .crew-left {
+    padding: 5rem 0 0 7rem;
+  }
+  .crew-role {
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (max-width:1050px) {
+  .crew {
+    background: url('../../assets/crew/background-crew-tablet.jpg') no-repeat center center fixed;;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: max-content;
+  
+  }
+
+  .crew-wrapper {
+    flex-direction: column;
+    padding: 2rem 4rem;
+  
+  }
+
+  .heading-text span{
+    letter-spacing: 3.38px;
+    font-size: 20px;
+  }
+
+  .heading-text .heading {
+    letter-spacing: 3.38px;
+    font-size: 20px;
+  }
+
+  .crew-left {
+    padding: 0;
+
+  }
+
+  .crew-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 4rem;
+  }
+
+  .crew-bio {
+    text-align: center;
+    padding: 0;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0;
+  }
+
+  .crew-role {
+    font-size: 24px;
+  }
+
+  .crew-name {
+    font-size: 40px;
+  }
+
+  .change-dot {
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    justify-content: center;
+  }
+
+  .change-dot li {
+    font-size: 32px;
+    margin: 0 .5rem;
+    align-self: center;
+    text-align: center;
+  }
+
+  
+
+}
+
+@media screen and (max-width: 650px) {
+  .crew {
+    background: url('../../assets/crew/background-crew-mobile.jpg') no-repeat center center fixed;;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: max-content;
+  
+  }
+
+  .crew-wrapper {
+    flex-direction: column-reverse;
+  }
+
+  .crew .heading-text {
+    padding: 2rem 4rem;
+    justify-content: center;
+  }
+
+  .heading-text span, .heading-text .heading{
+    letter-spacing: 2.7px;
+    font-size: 16px;
+   
+  }
+
+  
+
+  
+
+  .crew-wrapper {
+    padding: 0 2rem;
+    
+  }
+  .crew-left {
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .crew-right {
+    display: flex;
+    margin-top: 2rem;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .crew-photo{
+    width: 177.12px;
+    height: 260px;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+
+  }
+
+  .crew-photo img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .change-dot {
+    position: relative;
+    
+    margin-bottom: 20px;
+    justify-content: center;
+  }
+
+  .change-dot li {
+    font-size: 22px;
+    margin: 0;
+    align-self: center;
+    text-align: center;
+  }
+
+  .crew-info {
+    padding: 0 1rem;
+  }
+
+  .crew-role {
+    font-size: 16px;
+    margin-top: 1rem;
+  }
+  .crew-name {
+    font-size: 24px;
+    text-align: center;
+  }
+  .crew-bio {
+    font-size: 15px;
+    text-align: center;
+  }
+
+}
